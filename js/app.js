@@ -131,12 +131,7 @@ function addMoves(firstCard) {
     console.log(stars);
     console.log(stars.item(0).classList);
 
-    let star = stars.item(0).classList.item(1);
-    console.log(star);
-    star = "fa-star-o";
-    console.log(star);
-    
-
+    stars.item(0).classList.replace("fa-star", "fa-star-o");
 
     console.log(firstCard.classList);
     // Add to completed game if cards are a match
